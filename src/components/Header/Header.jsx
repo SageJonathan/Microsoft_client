@@ -9,6 +9,12 @@ function Header() {
           <div className="head__items-logo">
             <img src={Logo}></img>
           </div>
+          <div className="head__menu">
+            <p className="">Menu</p>
+            <p className="">menu</p>
+            <p className="">menu</p>
+            <p className="">menu</p>
+          </div>
         </div>
       </div>
     </section>
