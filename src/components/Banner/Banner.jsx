@@ -4,7 +4,9 @@ function Banner() {
 
   return (
     <>
-     
+    <div className='banner__container'>
+    <div className='banner'></div>
+    </div>
     </>
   )
 }

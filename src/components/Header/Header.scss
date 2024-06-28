@@ -1,0 +1,18 @@
+.nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    &__logo{
+        height: 5vw;
+    }
+    &__links {
+        list-style-type: none; 
+        display: flex; 
+        gap: 20px; 
+        margin-right: 2rem;
+    }
+
+    &__link {
+       text-decoration: none;
+    }
+}
