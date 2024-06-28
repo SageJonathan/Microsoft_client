@@ -8,6 +8,7 @@ import Office from '../../assets/images/office_prod.png'
 import Learn from '../../assets/images/learn_prod.png'
 import OpenAi from '../../assets/images/open_prod.jpg'
 import Copilot from '../../assets/images/copilot_prod.png'
+import { Link } from 'react-router-dom';
 
 function Landing() {
  
@@ -69,7 +70,7 @@ function Landing() {
           </div>
         </div>
 
-        <div className="landing__visuals">
+        {/* <div className="landing__visuals">
           <h3 className="landing__visuals--header">Why these products</h3>
           <div className="landing__visuals--container">
             <div className="landing__visuals--card">
@@ -81,7 +82,8 @@ function Landing() {
               <img className='landing__visuals--image' src="" alt="" />
             </div>
           </div>
-        </div>
+        </div> */}
+
 <h2 className='landing__testimonials--header'>Testimonials</h2>
 <div className="landing__testimonials">
   <div className="landing__testimonials--container">
@@ -160,8 +162,12 @@ function Landing() {
         <div className="landing__learnmore">
           <h3 className="landing__learnmore--header">Learn more</h3>
           <div className="landing__learnmore--buttons">
+          <Link to="/information">
             <button className="landing__learnmore--button">How is AI Used?</button>
+           </Link>
+           <Link to="/information">
             <button className="landing__learnmore--button">Purchase</button>
+            </Link>
           </div>
         </div>
       </div>
