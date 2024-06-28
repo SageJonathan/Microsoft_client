@@ -25,23 +25,7 @@ const LearnMore = () => {
 
   return (
     <div>
-      <h1>OpenAI API Demo</h1>
-      <textarea
-        value={prompt}
-        onChange={(e) => setPrompt(e.target.value)}
-        placeholder="Enter your prompt here"
-        rows="4"
-        cols="50"
-      ></textarea>
-      <br />
-      <button onClick={generateText}>Generate</button>
-      {generatedText && (
-        <div>
-          <h3>Generated Text:</h3>
-          <p>{generatedText}</p>
-        </div>
-      )}
-      {error && <p>{error}</p>}
+     
     </div>
   );
 };
