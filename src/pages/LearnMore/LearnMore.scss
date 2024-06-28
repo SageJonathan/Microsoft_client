@@ -1,24 +1,20 @@
 * {
   box-sizing: border-box;
 }
-
 .top {
   max-width: 100%;
   overflow: hidden;
   padding: 2rem;
-
   &__content {
     display: flex;
     flex-direction: row;
     width: 100%;
   }
-
   &__content-title {
     width: 50%;
     padding: 1rem;
     font-size: 2rem;
   }
-
   &__content-para {
     width: 50%;
     padding: 1rem;
@@ -26,18 +22,15 @@
     font-size: 1rem;
   }
 }
-
 .middle {
   max-width: 100%;
   overflow: hidden;
   padding: 2rem;
-
   &__logo {
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
   }
-
   &__cards {
     display: flex;
     justify-content: space-between;
@@ -46,7 +39,6 @@
     width: 80%;
     margin-bottom: 8rem;
   }
-
   &__card {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -59,25 +51,21 @@
     // gap: 20px;
   }
 }
-
 .chat {
   display: flex;
   justify-content: center;
   color: red;
 }
-
 .pricing {
   max-width: 100%;
   overflow: hidden;
   padding: 2rem;
   background-color: lightsteelblue;
   margin-top: 5rem;
-
   &__title {
     display: flex;
     justify-content: center;
   }
-
   &__cards {
     display: flex;
     justify-content: center;
@@ -86,35 +74,40 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
-
   &__img {
     width: 22vw;
   }
 }
-
 .lower {
   max-width: 100%;
   overflow: hidden;
   padding: 2rem;
-
   &__cont {
     display: flex;
     flex-direction: row;
     width: 100%;
   }
-
   &__sec1 {
     width: 50%;
   }
-
   &__sec2 {
     display: flex;
     justify-content: center;
     width: 50%;
     align-items: center;
   }
-
   &__sec2-img {
     width: 40vw;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
