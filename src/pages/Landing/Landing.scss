@@ -44,7 +44,7 @@
       &--header {
         text-align: center;
         margin-bottom: 20px;
-        font-size: 2rem;
+        font-size: 3rem;
         margin-top: 1rem;
       }
       &--container {
@@ -70,6 +70,11 @@
       }
       &--text-header{
         margin-bottom: 1rem;
+        font-size: 1.7rem;
+      }
+      &--text{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
       }
     }
   
@@ -77,8 +82,8 @@
     &__testimonials {
         &--header {
           text-align: center;
-          padding: 2rem;
-          font-size: 2rem;
+          padding: 3rem;
+          font-size: 3rem;
         }
         &--container {
           display: flex;
@@ -133,8 +138,8 @@
           margin-top: 10px; 
         }
         &--button{
-          margin: 0 10px; 
-          padding: 0.5rem 1rem;
+          margin: 30px 10px; 
+          padding: 1rem 2rem;
           margin-bottom: 3rem;
         }
         &--button-middle {
@@ -171,3 +176,10 @@
   //   height: 5px; /* 3px thick underline */
   //   background-color: rgba(255, 185, 0, 1); /* Microsoft yellow */
   // }
+
+  .gap{
+    margin-left: -1.5rem;
+  }
+  .landing-bttn{
+    font-size: 2rem;
+  }

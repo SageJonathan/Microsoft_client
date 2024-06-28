@@ -68,7 +68,7 @@ function LearnMore() {
       </div>
       <div className="pricing">
         <div className="pricing__title">
-          <h2>Pricing plan</h2>
+          <h2 className="pp">Pricing plan</h2>
         </div>
         <div className="pricing__cards">
           <img src={Price_free} className="pricing__img" />

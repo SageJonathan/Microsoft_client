@@ -17,7 +17,7 @@ function Landing() {
       <div className='landing'>
         <div className="landing__mission">
           <div className="landing__mission--text-container">
-            <h2 className="landing__mission--header">Enhance productivity <br></br> with AI for efficeincy</h2>
+            <h2 className="landing__mission--header">Enhance productivity <br></br> with AI for efficiency</h2>
             <div className='landing__mission--message'>
               <p className='landing__mission--text'> Discover how integrating artificial intelligence can significantly</p>
               <p className='landing__mission--text'>enhance your ability to get things done, streamlining processes</p>
@@ -44,17 +44,17 @@ function Landing() {
             <div className="landing__product--card">
               <img className="landing__product--image" src={Copilot} alt="" />
               <h4 className='landing__product--text-header'>Increased Efficiency and Productivity</h4>
-              <p>Copilot optimizes project schedules and automates routine tasks, boosting overall efficiency and productivity.</p>
+              <p className='landing__product--text'>Copilot optimizes project schedules and automates routine tasks, boosting overall efficiency and productivity.</p>
             </div>
             <div className="landing__product--card">
               <img className="landing__product--image landing__product--image-office" src={Office} alt="" />
               <h4 className='landing__product--text-header'>Cost Savings and Financial Optomization</h4>
-              <p>Microsoft 365 provides accurate cost estimates and resource optimization, reducing waste and saving money.</p>
+              <p className='landing__product--text'>Microsoft 365 provides accurate cost estimates and resource optimization, reducing waste and saving money.</p>
             </div>
             <div className="landing__product--card">
               <img className="landing__product--image" src={Learn} alt="" />
-              <h4 className='landing__product--text-header'>Build AI to Benifit You</h4>
-              <p>AI identifies safety hazards and assesses risks, helping prevent accidents and project issues.</p>
+              <h4 className='landing__product--text-header gap'>Build AI to Benifit Your Needs</h4>
+              <p className='landing__product--text'>AI identifies safety hazards and assesses risks, helping prevent accidents and project issues.</p>
             </div>
           </div>
         </div>
@@ -132,17 +132,22 @@ function Landing() {
 </div>
 
         <div className="landing__learnmore">
-          <h3 className="landing__learnmore--header">Learn more</h3>
           <div className="landing__learnmore--buttons">
           <Link to="/information">
-            <button className=" landing__learnmore--button landing__learnmore--button-left">Keep learning</button>
+            <button className=" landing__learnmore--button landing__learnmore--button-left">
+              <p className='landing-bttn'>
+              Keep learning
+              </p>
+              </button>
            </Link>
            <Link to="/information">
-            <button className="landing__learnmore--button landing__learnmore--button-middle">Ready for AI</button>
+            <button className="landing__learnmore--button landing__learnmore--button-middle">
+              <p className='landing-bttn'> 
+                Ready for AI
+                </p>
+              </button>
             </Link>
-            <Link to="/events">
-            <button className="landing__learnmore--button landing__learnmore--button-right">Industry Events</button>
-            </Link>
+    
           </div>
         </div>
       </div>
