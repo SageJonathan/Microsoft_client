@@ -10,6 +10,7 @@ import Price40 from "../../assets/images/pricing-40.png";
 import Price13 from "../../assets/images/pricing-13.png";
 import Lower_pic from "../../assets/images/lower_pic.png";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 function LearnMore() {
   const [prompt, setPrompt] = useState('');
@@ -76,29 +77,34 @@ function LearnMore() {
           <img src={Price74} className="pricing__img" />
         </div>
       </div>
+      
       <div className="lower">
         <div className="lower__cont">
           <div className="lower__sec1">
             <h2 className="lower__sec1-title">
               Explore AI Solutions for Construction
             </h2>
-            <ul className="">
-              <li>
+            <ul className="lower__sec1-list">
+              <li className="lower__sec1-item">
                 AI opstimizes efficiency, reduces costs, and enhances safety in
                 construction.
               </li>
-              <li>You can demo AI tools tailored for your projects.</li>
-              <li>
+              <li className="lower__sec1-item">
+                You can demo AI tools tailored for your projects.
+              </li>
+              <li className="lower__sec1-item">
                 Pricing is based on the scale of implementatiopn and usage.
               </li>
-              <li>
+              <li className="lower__sec1-item">
                 Learn AI through our platform to earn credits and lower your
                 costs
               </li>
             </ul>
             <div className="lower__buttons">
-              <button className="lower__buttons-left"></button>
-              <button className="lower__buttons-right"></button>
+              <Link to="/events">
+              <button className="lower__buttons-left">Keep learning</button>
+              </Link>
+              <button className="lower__buttons-right">Pay as you go</button>
             </div>
           </div>
           <div className="lower__sec2">
@@ -106,6 +112,7 @@ function LearnMore() {
           </div>
         </div>
       </div>
+    
     </>
   );
 }

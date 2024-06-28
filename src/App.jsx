@@ -9,8 +9,6 @@ import Events from './pages/Events/Events';
 function App() {
   return (
     <>
-      {/* <Header></Header>
-      <Test></Test> */}
       <BrowserRouter>
       <Header></Header>
         <Routes>

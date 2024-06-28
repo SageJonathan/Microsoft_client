@@ -49,11 +49,6 @@
     // gap: 20px;
   }
 }
-.chat {
-  display: flex;
-  justify-content: center;
-  color: red;
-}
 .pricing {
   max-width: 100%;
   overflow: hidden;
@@ -76,10 +71,11 @@
     width: 22vw;
   }
 }
+
 .lower {
   max-width: 100%;
   overflow: hidden;
-  padding: 2rem;
+padding: 3rem 6rem 3rem 6rem;
   &__cont {
     display: flex;
     flex-direction: row;
@@ -94,8 +90,34 @@
     width: 50%;
     align-items: center;
   }
+  &__sec1-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  &__sec1-item {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding-bottom: .5rem;
+  }
   &__sec2-img {
-    width: 40vw;
+    width: 35vw;
+  }
+  &__buttons {
+    display: flex;
+    margin-top: 1rem;
+    gap: 20px;
+    margin-top: 2rem;
+  }
+  &__buttons-left {
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+    border-color: #0067B8;
+    background-color: #FFFFFF;
+  }
+  &__buttons-right {
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0067B8;
   }
 }
 
