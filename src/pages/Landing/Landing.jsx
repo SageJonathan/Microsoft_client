@@ -10,11 +10,12 @@ function Landing() {
         <div className="landing__mission">
           <div className="landing__mission--text-container">
             <h2 className="landing__mission--header">Our Mission</h2>
-            <ul className="landing__mission--list">
-              <li className="landing__mission--item">Provide reliable avalanche forecasting</li>
-              <li className="landing__mission--item">Enhance safety for professionals and recreationalists</li>
-              <li className="landing__mission--item">Leverage AI for comprehensive data analysis</li>
-            </ul>
+            {/* <ul className="landing__mission--list">
+              <li className="landing__mission--item">Empowering small and medium-sized construction firms with cutting-edge AI technologies.</li>
+              <li className="landing__mission--item">Enhancing project efficiency, safety, and sustainability through AI-driven solutions.</li>
+              <li className="landing__mission--item">Supporting growth by optimizing operations and mitigating risks with innovative AI tools.</li>
+            </ul> */}
+            <p className='landing__mission--message'>Microsoft is dedicated to empowering small and medium-sized construction companies <br></br> with AI innovations that enhance efficiency, safety, and sustainability throughout project lifecycles. <br></br> Our goal is to support growth by optimizing operations, mitigating risks, <br></br> and advancing infrastructure project management.</p>
           </div>
           <div className="landing__mission--image-container">
             <img className='landing__mission--image' src="path-to-your-image.jpg" alt="Avalanche Safety"/>

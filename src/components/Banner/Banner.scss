@@ -1,6 +1,21 @@
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+
+
 .banner {
-    height: 30vh; /* Adjust height as needed */
-    background-image: url('../../assets/images/banner.webp'); /* Adjust path as necessary */
-    background-size: cover; /* Cover the entire container */
-    background-position: center; /* Center the background image */
+    height: 30vh; 
+    background-image: url('../../assets/images/banner.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    @include tablet{
+        background-size: cover; 
+        height: 40vh;
+    }
+    @include desktop{
+        height: 60vh;
+    }
+    &__container{
+        background-color: navy; 
+    }
 }

@@ -1,20 +1,18 @@
 .nav {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Align items with space between */
-    align-items: center; /* Center items vertically */
-
-    &__logo-container {
-        /* Styles for the logo container */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    &__logo{
+        height: 5vw;
     }
-
     &__links {
-        list-style-type: none; /* Remove default list styles */
-        display: flex; /* Display links horizontally */
-        gap: 20px; /* Adjust spacing between links */
+        list-style-type: none; 
+        display: flex; 
+        gap: 20px; 
         margin-right: 2rem;
     }
 
     &__link {
-        /* Styles for individual navigation links */
+       text-decoration: none;
     }
 }
