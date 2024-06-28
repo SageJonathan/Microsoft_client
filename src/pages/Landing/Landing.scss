@@ -54,26 +54,29 @@
       }
       &--container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
       }
-      &--card {
-        flex: 1;
-        padding: 20px;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin: 0 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
+      // &--card {
+      //   // flex: 1;
+      //   padding: 20px;
+      //   border: 1px solid #ddd;
+      //   border-radius: 10px;
+      //   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      //   margin: 0 10px;
+      //   display: flex;
+      //   flex-direction: column;
+      //   align-items: center;
+      // }
       &--image {
-        width: 100%;
-        height: auto;
         margin-bottom: 10px;
+        width: 250px; /* Adjust the size as needed */
+        height: 250px; /* Ensure width and height are equal for a circular shape */
+        object-fit: cover; /* Ensure the image covers the area without distortion */
+      
       }
-    //   &--image-office{
-    //   }
+      &--image-office{
+        border-radius: 50%;
+      }
     }
   
     &__visuals {

@@ -7,6 +7,7 @@ import User4 from '../../assets/images/user4.png'
 import Office from '../../assets/images/office_prod.png'
 import Learn from '../../assets/images/learn_prod.png'
 import OpenAi from '../../assets/images/open_prod.jpg'
+import Copilot from '../../assets/images/copilot_prod.png'
 
 function Landing() {
  
@@ -51,16 +52,19 @@ function Landing() {
           <h3 className="landing__product--header">Our Products</h3>
           <div className="landing__product--container">
             <div className="landing__product--card">
+              <img className="landing__product--image" src={Copilot} alt="" />
+              <h4>Increased Efficiency and Productivity</h4>
+              <p>Prod1</p>
+            </div>
+            <div className="landing__product--card">
               <img className="landing__product--image landing__product--image-office" src={Office} alt="" />
-              {/* <p>Prod1</p> */}
+              <h4>Cost Savings and Financial Optomization</h4>
+              <p>Prod2</p>
             </div>
             <div className="landing__product--card">
               <img className="landing__product--image" src={Learn} alt="" />
-              {/* <p>Prod2</p> */}
-            </div>
-            <div className="landing__product--card">
-              <img className="landing__product--image" src={OpenAi} alt="" />
-              {/* <p>Prod3</p> */}
+              <h4>Enhanced Safety and Risk Management</h4>
+              <p>Prod3</p>
             </div>
           </div>
         </div>
