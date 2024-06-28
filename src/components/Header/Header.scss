@@ -1,0 +1,20 @@
+.nav {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Center items vertically */
+
+    &__logo-container {
+        /* Styles for the logo container */
+    }
+
+    &__links {
+        list-style-type: none; /* Remove default list styles */
+        display: flex; /* Display links horizontally */
+        gap: 20px; /* Adjust spacing between links */
+        margin-right: 2rem;
+    }
+
+    &__link {
+        /* Styles for individual navigation links */
+    }
+}
