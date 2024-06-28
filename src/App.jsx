@@ -15,7 +15,7 @@ function App() {
           <Route path="/information" element={<LearnMore />} />
         </Routes>
       </BrowserRouter>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </>
   );
 }

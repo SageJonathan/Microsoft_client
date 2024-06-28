@@ -1,0 +1,176 @@
+
+.landing {
+    &__mission {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.04); /* Adjust the alpha value as needed */
+
+  
+      &--text-container {
+        flex: 1;
+      }
+  
+      &--header {
+        margin: 1rem 2.2rem 0.5rem;
+        // margin: 1rem 0.5rem 0.5rem 0.2rem;
+
+      }
+  
+      &--list {
+        margin-bottom: 10px;
+        padding-left: 0;
+        list-style-type: none;
+      }
+  
+    //   &--item {
+    //     padding: 0.3rem;
+    //   }
+      &--message{
+        padding: 0.3rem;
+        margin-left: 2rem;
+        // margin-right: 2rem;
+      }
+  
+      &--image-container {
+        flex-shrink: 0; 
+        margin-left: 20px; 
+      }
+  
+    //   &--image {
+    //     margin: 1rem 1rem 1rem 0rem;
+    //     height: auto;
+    //     width: 25vw;
+    //   }
+      &--video {
+        margin: 1rem 1rem 1rem 0rem;
+      }
+    }
+  
+    &__product {
+      &--header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      &--container {
+        display: flex;
+        justify-content: space-around;
+      }
+      // &--card {
+      //   // flex: 1;
+      //   padding: 20px;
+      //   border: 1px solid #ddd;
+      //   border-radius: 10px;
+      //   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      //   margin: 0 10px;
+      //   display: flex;
+      //   flex-direction: column;
+      //   align-items: center;
+      // }
+      &--image {
+        margin-bottom: 10px;
+        width: 250px; /* Adjust the size as needed */
+        height: 250px; /* Ensure width and height are equal for a circular shape */
+        object-fit: cover; /* Ensure the image covers the area without distortion */
+      
+      }
+      &--image-office{
+        border-radius: 50%;
+      }
+    }
+  
+    &__visuals {
+      &--header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      &--container {
+        display: flex;
+        justify-content: space-between;
+      }
+      &--card {
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      &--image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    }
+
+
+    &__testimonials {
+        &--header {
+          text-align: center;
+          padding: 2rem;
+          font-size: 2rem;
+        }
+        &--container {
+          display: flex;
+          justify-content: space-between;
+          margin: 1rem 7rem 1rem 7rem;
+        }
+        &--card {
+          flex: 1;
+          padding: 20px;
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          margin: 0 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center; 
+        }
+        &--image {
+            width: 5rem; 
+            height: 5rem; 
+            border-radius: 50%; 
+            margin-bottom: 10px;
+            margin-right: 1rem;
+            object-fit: cover; 
+        }
+        &--user-container{
+            display: flex;
+            align-items: center;
+        }
+        // &--user{
+
+        // }
+        &--user-info{
+            padding: 0.2rem;
+        }
+        &--user-text{
+            margin-top: 1rem;
+            text-align: left;
+        }
+        // &--graph{
+            
+        // }
+    }
+    &__learnmore {
+        text-align: center; 
+        
+        &--header {
+          margin-bottom: 20px; 
+        }
+        
+        &--buttons {
+          display: flex;
+          justify-content: center; 
+          margin-top: 10px; 
+        }
+        
+        &--button {
+          margin: 0 10px; 
+        }
+      }
+  }

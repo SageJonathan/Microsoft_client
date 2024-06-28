@@ -1,6 +1,5 @@
 import "./Footer.scss";
-import Logo from "../../assets/BrainFlix-logo.svg";
-
+import logo from "../../assets/images/micro_logo.png";
 function Footer() {
   return (
     <section className="container">
@@ -15,7 +14,7 @@ function Footer() {
         </div>
 
         <div className="foot__logo">
-          <img src={Logo} />
+          <img src={logo} />
         </div>
       </div>
     </section>

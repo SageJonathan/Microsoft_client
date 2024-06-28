@@ -1,24 +1,20 @@
-import "./Header.scss";
-import Logo from "../../assets/BrainFlix-logo.svg";
+import './Header.scss'
+import logo from '../../assets/images/micro_logo.png'
 
 function Header() {
   return (
-    <section className="container">
-      <div className="head">
-        <div className="head__items">
-          <div className="head__items-logo">
-            <img src={Logo}></img>
-          </div>
-          <div className="head__menu">
-            <p className="">Menu</p>
-            <p className="">menu</p>
-            <p className="">menu</p>
-            <p className="">menu</p>
-          </div>
-        </div>
+    <>
+     <div className='nav'>
+      <div className='nav__logo-container'>
+        <img className='nav__logo' src={logo} alt="" />
       </div>
-    </section>
-  );
+        <ul className='nav__links'>
+          <li className='nav__link'>Learn More</li>
+          <li className='nav__link'>Events</li>
+        </ul>
+     </div>
+    </>
+  )
 }
 
 export default Header;
