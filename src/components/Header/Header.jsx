@@ -7,15 +7,17 @@ function Header() {
     <>
      <div className='nav'>
     <div className='nav__logo-container'>
-    <img className='nav__logo' src={logo} alt="Logo" />
+      <Link to="/">
+      <img className='nav__logo' src={logo} alt="Logo" />
+      </Link>
 
     </div>
     <ul className='nav__links'>
       <li className='nav__link'>
-      Learn More
+         <Link className="link" to="/information"> Learn More</Link> 
       </li>
       <li className='nav__link'>
-        Events
+      <Link  className="link" to="/events"> Events</Link> 
         </li>
     </ul>
   </div>
