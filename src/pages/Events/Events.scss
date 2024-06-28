@@ -1,16 +1,16 @@
 
 .events {
-  position: relative; /* Ensure relative positioning for absolute background */
+  position: relative; 
   background-image: url(../../assets/images/events.webp);
   background-size: cover;
-  padding: 40px 0; /* Add padding to create space above and below */
+  padding: 40px 0; 
 }
 
 .events-container {
-  position: relative; /* Ensure relative positioning for z-index */
-  z-index: 1; /* Ensure the container stays above the background image */
+  position: relative; 
+  z-index: 1; 
   max-width: 800px;
-  margin: 40px auto; /* Adjust margin to create space */
+  margin: 40px auto; 
   padding: 20px;
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

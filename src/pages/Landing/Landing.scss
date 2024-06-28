@@ -4,17 +4,16 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: rgba(0, 0, 0, 0.04); /* Adjust the alpha value as needed */
+      background-color: rgba(0, 0, 0, 0.04); 
+      padding: 2rem 4rem;
 
-  
       &--text-container {
         flex: 1;
       }
   
       &--header {
-        margin: 1rem 2.2rem 0.5rem;
-        // margin: 1rem 0.5rem 0.5rem 0.2rem;
-
+        margin: 1rem 2.2rem 0.7rem;
+        font-size: 2rem;
       }
   
       &--list {
@@ -22,28 +21,22 @@
         padding-left: 0;
         list-style-type: none;
       }
-  
-    //   &--item {
-    //     padding: 0.3rem;
-    //   }
       &--message{
         padding: 0.3rem;
         margin-left: 2rem;
-        // margin-right: 2rem;
       }
   
       &--image-container {
         flex-shrink: 0; 
         margin-left: 20px; 
       }
-  
-    //   &--image {
-    //     margin: 1rem 1rem 1rem 0rem;
-    //     height: auto;
-    //     width: 25vw;
-    //   }
       &--video {
         margin: 1rem 1rem 1rem 0rem;
+      }
+      &--text{
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-bottom: 0.4rem;
       }
     }
   
@@ -59,11 +52,7 @@
         justify-content: space-around;
       }
       &--card {
-        // flex: 1;
         padding: 20px;
-        // border: 1px solid #ddd;
-        // border-radius: 10px;
-        // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         margin: 0 10px;
         display: flex;
         flex-direction: column;
@@ -79,35 +68,11 @@
       &--image-office{
         border-radius: 50%;
       }
+      &--text-header{
+        margin-bottom: 1rem;
+      }
     }
   
-    &__visuals {
-      &--header {
-        text-align: center;
-        margin-bottom: 20px;
-      }
-      &--container {
-        display: flex;
-        justify-content: space-between;
-      }
-      &--card {
-        flex: 1;
-        padding: 20px;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        margin: 0 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      &--image {
-        width: 100%;
-        height: auto;
-        margin-bottom: 10px;
-      }
-    }
-
 
     &__testimonials {
         &--header {
@@ -144,9 +109,7 @@
             display: flex;
             align-items: center;
         }
-        // &--user{
-
-        // }
+        
         &--user-info{
             padding: 0.2rem;
         }
@@ -154,9 +117,6 @@
             margin-top: 1rem;
             text-align: left;
         }
-        // &--graph{
-            
-        // }
     }
     &__learnmore {
         text-align: center; 
@@ -195,4 +155,19 @@
         }
         
       }
+  }
+
+  .highlight {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .highlight::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px; /* 2px below the text */
+    height: 5px; /* 3px thick underline */
+    background-color: rgba(255, 185, 0, 1); /* Microsoft yellow */
   }

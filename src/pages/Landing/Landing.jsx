@@ -16,25 +16,15 @@ function Landing() {
       <Banner />
       <div className='landing'>
         <div className="landing__mission">
-        {/* <div className="landing__mission--image-container">
-            <img className='landing__mission--image' src={Mission} alt="man inspects blueprints"/>
-          </div> */}
           <div className="landing__mission--text-container">
-            <h2 className="landing__mission--header">Our Mission</h2>
-            {/* <ul className="landing__mission--list">
-              <li className="landing__mission--item">Empowering small and medium-sized construction firms with cutting-edge AI technologies.</li>
-              <li className="landing__mission--item">Enhancing project efficiency, safety, and sustainability through AI-driven solutions.</li>
-              <li className="landing__mission--item">Supporting growth by optimizing operations and mitigating risks with innovative AI tools.</li>
-            </ul> */}
+            <h2 className="landing__mission--header">Enhance productivity <br></br> with AI for efficeincy</h2>
             <div className='landing__mission--message'>
-              <p>Microsoft is dedicated to empowering small and medium-sized construction companies</p>
-              <p>with AI innovations that enhance efficiency, safety, and sustainability throughout project lifecycles.</p>
-              <p>Our goal is to support growth by optimizing operations, mitigating risks, </p>
-              <p>and advancing infrastructure project management.</p>
+              <p className='landing__mission--text'> Discover how integrating artificial intelligence can significantly</p>
+              <p className='landing__mission--text'>enhance your ability to get things done, streamlining processes</p>
+              <p className='landing__mission--text'> and optimizing workflows to achieve more in <span className='highlight'>less time.</span></p>
               </div>
           </div>
           <div className="landing__mission--image-container">
-            {/* <img className='landing__mission--image' src={Mission} alt="man inspects blueprints"/> */}
             <iframe
               className="landing__mission--video"
               width="560"
@@ -53,35 +43,21 @@ function Landing() {
           <div className="landing__product--container">
             <div className="landing__product--card">
               <img className="landing__product--image" src={Copilot} alt="" />
-              <h4>Increased Efficiency and Productivity</h4>
-              <p>Prod1</p>
+              <h4 className='landing__product--text-header'>Increased Efficiency and Productivity</h4>
+              <p>Copilot optimizes project schedules and automates routine tasks, boosting overall efficiency and productivity.</p>
             </div>
             <div className="landing__product--card">
               <img className="landing__product--image landing__product--image-office" src={Office} alt="" />
-              <h4>Cost Savings and Financial Optomization</h4>
-              <p>Prod2</p>
+              <h4 className='landing__product--text-header'>Cost Savings and Financial Optomization</h4>
+              <p>Microsoft 365 provides accurate cost estimates and resource optimization, reducing waste and saving money.</p>
             </div>
             <div className="landing__product--card">
               <img className="landing__product--image" src={Learn} alt="" />
-              <h4>Enhanced Safety and Risk Management</h4>
-              <p>Prod3</p>
+              <h4 className='landing__product--text-header'>Build AI to Benifit You</h4>
+              <p>AI identifies safety hazards and assesses risks, helping prevent accidents and project issues.</p>
             </div>
           </div>
         </div>
-
-        {/* <div className="landing__visuals">
-          <h3 className="landing__visuals--header">Why these products</h3>
-          <div className="landing__visuals--container">
-            <div className="landing__visuals--card">
-              <p>Office</p>
-              <img className='landing__visuals--image' src="" alt="" />
-            </div>
-            <div className="landing__visuals--card">
-              <p>Azure</p>
-              <img className='landing__visuals--image' src="" alt="" />
-            </div>
-          </div>
-        </div> */}
 
 <h2 className='landing__testimonials--header'>Testimonials</h2>
 <div className="landing__testimonials">

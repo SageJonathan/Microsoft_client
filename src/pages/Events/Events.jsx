@@ -1,5 +1,5 @@
-import React from 'react';
-import './Events.scss'; // Import your SCSS file for styling
+
+import './Events.scss'; 
 
 function Events() {
   return (
