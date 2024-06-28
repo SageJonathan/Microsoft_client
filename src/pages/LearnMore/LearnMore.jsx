@@ -34,12 +34,12 @@ function LearnMore() {
       <div className="top">
         <div className="top__content">
           <h1 className="top__content-title">
-            Smart, Reliable, and Transparent AI Solutions for Your Business
+            Smart, Reliable, and Transparent <br></br>AI Solutions for Your <span className='highlight'>Business</span>
           </h1>
           <p className="top__content-para">
-            Unlock the full potential of your construction projects with our AI
-            solutions. Designed to improve efficiency, reduce costs, and secure
-            safety, our AI tools are the future of construction
+            <p className="text">Unlock the full potential of your construction projects with our AI</p>
+            <p className="text">solutions. Designed to improve efficiency, reduce costs, and secure</p>
+            <p className="text"> safety, our AI tools are the future of construction</p>
           </p>
         </div>
       </div>
@@ -63,7 +63,7 @@ function LearnMore() {
         </div>
       </div>
       <div className="chat">
-        <p1>SOMETHING WILL BE HERE</p1>
+      <textarea id="chat-textarea" placeholder="Message Chat GPT"></textarea>
       </div>
       <div className="pricing">
         <div className="pricing__title">

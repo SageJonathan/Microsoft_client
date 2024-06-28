@@ -157,17 +157,17 @@
       }
   }
 
-  .highlight {
-    position: relative;
-    display: inline-block;
-  }
+  // .highlight {
+  //   position: relative;
+  //   display: inline-block;
+  // }
   
-  .highlight::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -6px; /* 2px below the text */
-    height: 5px; /* 3px thick underline */
-    background-color: rgba(255, 185, 0, 1); /* Microsoft yellow */
-  }
+  // .highlight::after {
+  //   content: '';
+  //   position: absolute;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: -6px; /* 2px below the text */
+  //   height: 5px; /* 3px thick underline */
+  //   background-color: rgba(255, 185, 0, 1); /* Microsoft yellow */
+  // }

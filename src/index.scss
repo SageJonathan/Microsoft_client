@@ -7,3 +7,17 @@
   margin: 0;
 }
 
+.highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 5px;
+  background-color: rgba(255, 185, 0, 1); 
+}
