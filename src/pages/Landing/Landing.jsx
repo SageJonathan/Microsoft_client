@@ -1,12 +1,11 @@
-import './Landing.scss'
+import "./Landing.scss";
 
 function Landing() {
-
   return (
     <>
-     
+      
     </>
-  )
+  );
 }
 
-export default Landing
+export default Landing;
