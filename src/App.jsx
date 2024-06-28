@@ -5,7 +5,6 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import LearnMore from './pages/LearnMore/LearnMore';
 import Events from './pages/Events/Events';
-import Test from './components/Header/Test';
 
 function App() {
   return (
@@ -19,8 +18,8 @@ function App() {
           <Route path = "/information" element={<LearnMore/>}/>
           <Route path = "/events" element={<Events/>}/>
         </Routes>
+        <Footer></Footer>
       </BrowserRouter>
-      <Footer></Footer>
     </>
   );
 }
